@@ -1,0 +1,7 @@
+# Импортирование необходимых библиотек
+from PIL import Image
+import image_processing as ip
+
+# Пример использования функций
+image = ip.process_image("path/to/your/image.jpg", new_size=(800, 600), to_bw=True, blur_radius=5)
+image.show()
